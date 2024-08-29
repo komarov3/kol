@@ -137,12 +137,4 @@ else:
                 st.write(f"{feed}: {weight:.2f} kg")
         st.write("**Calculation Steps:**")
         for explanation in result["explanations"]:
-            st.write(f"- {explanation}")
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
+            st.write(f"- {explanation}"
